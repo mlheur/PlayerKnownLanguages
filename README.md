@@ -9,3 +9,6 @@ Installation:
  git clone https://github.com/mlheur/PlayerKnownLanguages
 ```
  - enable extension "Player Known Languages" when creating or loading the campaign
+
+# Sample
+![sample](https://github.com/mlheur/PlayerKnownLanguages/blob/main/Sample.png)
