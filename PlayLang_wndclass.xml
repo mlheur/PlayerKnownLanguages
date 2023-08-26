@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<windowclass name="PlayLang_wndclass" copy="settings_list">
+		<placement>
+			<size width="400" height="760" />
+			<nosave />
+		</placement>
+		<sizelimits>
+			<dynamic />
+			<minimum width="400" height="400" />
+		</sizelimits>
+		<sheetdata>
+			<windowtitlebar name="title">
+				<resource>window_title_PlayLang</resource>
+			</windowtitlebar>
+
+			<list_utility_setting name="list">
+				<class>PlayLang_item</class>
+				<datasource>languages</datasource>
+			</list_utility_setting>
+		</sheetdata>
+	</windowclass>
+
+	<windowclass name="PlayLang_item">
+		<margins control="0,0,0,5" />
+		<sheetdata>
+			<anchor_listitem_left name="leftanchor" />
+			<anchor_listitem_right name="rightanchor" />
+			<string_listitem_left_static name="name">
+                <anchored width="100" />
+                <script file="PlayLang_item.lua"/>
+            </string_listitem_left_static>
+            <string_listitem_center_text name="PlayLang_players">
+                <readonly />
+                <anchored>
+                    <left parent="name" anchor="right" offset="10" />
+                </anchored>
+            </string_listitem_center_text>
+		</sheetdata>
+	</windowclass>
+</root>

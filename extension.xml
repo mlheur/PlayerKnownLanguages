@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.0">
+	<announcement text="Player Known Languages (C) 2023 mlheur@gmail.com" font="emotefont" icon="button_speak" />
+	<properties>
+		<name>Player Known Languages</name>
+		<version>1</version>
+		<author>mlheur</author>
+		<description>Summarize all PC known languages.</description>
+		<ruleset><name>5E</name></ruleset>
+		<loadorder>125</loadorder>
+	</properties>
+	<base>
+		<string name="window_title_PlayLang">Player Known Languages</string>
+        <string name="sidebar_tooltip_PlayLang_wndclass">Player Known Languages</string>
+		<script name="PlayLang" file="PlayLang.lua" />
+		<includefile source="PlayLang_wndclass.xml" />
+	</base>
+
+</root>
