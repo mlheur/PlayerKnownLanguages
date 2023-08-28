@@ -27,15 +27,15 @@
 			<anchor_listitem_left name="leftanchor" />
 			<anchor_listitem_right name="rightanchor" />
 			<string_listitem_left_static name="name">
-                <anchored width="100" />
-                <script file="PlayLang_item.lua"/>
-            </string_listitem_left_static>
-            <string_listitem_center_text name="PlayLang_players">
-                <readonly />
-                <anchored>
-                    <left parent="name" anchor="right" offset="10" />
-                </anchored>
-            </string_listitem_center_text>
+				<anchored width="100" />
+				<script file="PlayLang_item.lua"/>
+			</string_listitem_left_static>
+			<string_listitem_center_text name="PlayLang_players">
+				<readonly />
+				<anchored>
+					<left parent="name" anchor="right" offset="10" />
+				</anchored>
+			</string_listitem_center_text>
 		</sheetdata>
 	</windowclass>
 </root>
