@@ -2,7 +2,8 @@ function onInit()
     LangNode = getDatabaseNode()
     sLang = LangNode.getValue()
     sPlayers = ""
-    for _,nChar in pairs(DB.findNode("charsheet").getChildren()) do
+    for _,nPS in ipairs(PartyManager.getPartyNodes()) do
+        nChar = PartyManager.mapPStoChar(nPS)
         sCharName = DB.getChild(nChar,"name").getValue()
         for _,nCharLang in pairs(DB.getChildren(nChar,"languagelist")) do
             sKnownLangs = StringManager.trim(DB.getValue(nCharLang, "name", ""))
