@@ -11,7 +11,7 @@
 	</properties>
 	<base>
 		<string name="window_title_PlayLang">Player Known Languages</string>
-        <string name="sidebar_tooltip_PlayLang_wndclass">Player Known Languages</string>
+		<string name="sidebar_tooltip_PlayLang_wndclass">Player Known Languages</string>
 		<script name="PlayLang" file="PlayLang.lua" />
 		<includefile source="PlayLang_wndclass.xml" />
 	</base>
