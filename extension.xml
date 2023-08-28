@@ -15,5 +15,4 @@
 		<script name="PlayLang" file="PlayLang.lua" />
 		<includefile source="PlayLang_wndclass.xml" />
 	</base>
-
 </root>

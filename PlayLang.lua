@@ -1,4 +1,3 @@
-
 function onInit()
 	if User.isHost() then
 		tButton = {}
