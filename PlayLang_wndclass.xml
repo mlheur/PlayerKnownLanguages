@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root>
-	<windowclass name="PlayLang_wndclass" copy="settings_list">
+	<windowclass name="PlayLang_wndclass">
+		<frame>utilitybox</frame>
 		<placement>
-			<size width="400" height="760" />
+			<size width="400" height="705" />
 			<nosave />
 		</placement>
 		<sizelimits>
@@ -13,11 +14,14 @@
 			<windowtitlebar name="title">
 				<resource>window_title_PlayLang</resource>
 			</windowtitlebar>
-
+			<anchor_content_utilitybox_top />
+			<anchor_content_utilitybox_bottom />
 			<list_utility_setting name="list">
 				<class>PlayLang_item</class>
 				<datasource>languages</datasource>
 			</list_utility_setting>
+			<resize_utilitybox />
+			<close_utilitybox />
 		</sheetdata>
 	</windowclass>
 
