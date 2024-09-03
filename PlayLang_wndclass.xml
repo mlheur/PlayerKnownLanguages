@@ -21,7 +21,7 @@
 				<datasource>languages</datasource>
 			</list_utility_setting>
 			<resize_utilitybox />
-			<close_utilitybox />
+			<windowmenubar_utilitybox />
 		</sheetdata>
 	</windowclass>
 
