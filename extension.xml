@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.0">
-	<announcement text="Player Known Languages (C) 2023 mlheur@gmail.com" font="emotefont" icon="button_speak" />
+	<announcement text="Player Known Languages\r(C) 2023,2025 mlheur@gmail.com" font="emotefont" icon="button_speak" />
 	<properties>
-		<name>Player Known Languages</name>
+		<name>Extension: Player Known Languages</name>
 		<version>1</version>
 		<author>mlheur</author>
-		<description>Summarize all PC known languages.</description>
+		<description>Summarize all PC known languages</description>
 		<ruleset><name>5E</name></ruleset>
 		<loadorder>125</loadorder>
 	</properties>
